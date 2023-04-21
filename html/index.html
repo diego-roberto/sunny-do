@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self';">
+    <title>Sunny-Do ☀️</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+  </head>
+  <img src="../assets/images/close.png" alt="close" id="close-button">
+  <body id="main-window-container-frame">
+      <div class="weather">
+        <div class="weather-temp">
+          <span id="current-temp-icon">🌡️</span>
+          <span id="current-temp"></span>
+          <div class="current-city">
+            <small id="current-city"></small>
+          </div>
+        </div>
+        <div class="weather-cond">
+          <iframe id="weather-image" src="" width="80px" height="80px"></iframe>
+          <img id="weather-frame" src="../assets/images/msn-frame.png">
+        </div>
+      </div>
+      <div class="tasks">
+          <div id="add-container">
+            <p>🗒️<span id="notepad-icon"></span></p>
+            <button id="new-task-btn">add task</button>
+          </div>
+          <ul id="task-list"></ul>
+      </div>
+
+      <script src="../src/renderer.js"></script>
+  </body>
+</html>

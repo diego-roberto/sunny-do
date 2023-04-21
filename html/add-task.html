@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Add Task</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+  </head>
+  <img src="../assets/images/close.png" alt="close" id="close-button">
+  <body id="add-task-container-frame">
+        <div id="container">
+            <form id="task-form">
+                <div>
+                    <input type="text" id="task-name-input" name="task-name-input" placeholder="new task" spellcheck="false">
+                </div>
+                <div>
+                    <label for="task-date-input">due date:</label>
+                    <input type="date" id="task-date-input" name="task-date-input">
+                </div>
+                <div id="status">
+                    <label for="task-status-input">status:</label>
+                    <select id="task-status-input" name="task-status-input">
+                        <option value="to do">to do</option>
+                        <option value="in progress">in progress</option>
+                        <option value="done">done</option>
+                    </select>
+                </div>
+                <div id="actions">
+                    <button type="submit" id="save-btn">save</button>
+                </div>
+            </form>
+        </div>
+        
+        <script src="../src/add-task.js"></script>
+  </body>
+</html>

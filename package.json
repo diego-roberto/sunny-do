@@ -1,0 +1,32 @@
+{
+  "name": "sunny-do",
+  "version": "1.0.0",
+  "description": "to-do list with local weather app to track your tasks with the day's forecast",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "to-do",
+    "wheather",
+    "widget",
+    "todo",
+    "list"
+  ],
+  "author": "Diego Roberto",
+  "publish": {
+    "provider": "github",
+    "owner": "diego-roberto",
+    "repo": "sunny-do",
+    "private": false
+  },
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "electron": "^24.1.1",
+    "electron-builder": "^24.2.1"
+  },
+  "dependencies": {
+    "electron-drag": "^2.0.0",
+    "ipapi.co": "^0.3.0"
+  }
+}
