@@ -6,18 +6,18 @@ let win = null;
 let addTaskWindow = null;
 
 // TO DO: remover! apenas para teste:
-const newTask = {
-  name: "Test 1",
-  date: Date.now(),
-  status: "in progress",
-};
-tasks.push(newTask)
-const otherTask = {
-  name: "Test 2",
-  date: Date.now(),
-  status: "to do",
-};
-tasks.push(otherTask)
+// const newTask = {
+//   name: "implement weather",
+//   date: Date.now(),
+//   status: "done",
+// };
+// tasks.push(newTask)
+// const otherTask = {
+//   name: "fetch weather every 2 hours",
+//   date: Date.now(),
+//   status: "to do",
+// };
+// tasks.push(otherTask)
 //
 
 function createWindow() {
